@@ -13,7 +13,7 @@
               用創意把日常過成喜歡的樣子<br>
               <span class="text-muted">一起慢慢生活，找到喜歡的自己</span>
             </p>
-            <button @click="$router.push('/items')" class="btn btn-primary btn-lg">
+            <button  class="btn btn-primary btn-lg">
               <i class="bi bi-arrow-right me-2"></i>瀏覽產品
             </button>
           </div>
