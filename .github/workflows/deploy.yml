@@ -31,9 +31,19 @@ jobs:
         env:
           VITE_API_URL: https://your-go-backend.example.com
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./frontend/dist
-          cname: catmicraft.example.com
+      - name: Prepare deploy directory
+        run: |
+          rm -rf docs
+          cp -r frontend/dist docs
+          touch docs/.nojekyll
+
+      - name: Commit and push
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/
+          git diff-index --quiet HEAD || git commit -m "Deploy to GitHub Pages"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
