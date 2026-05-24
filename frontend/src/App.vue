@@ -12,8 +12,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <router-link to="/" class="nav-link" :class="{ active: $route.path === '/' }">
-                首頁
+              <router-link to="/" class="nav-link d-flex align-items-center gap-2" :class="{ active: $route.path === '/' }">
+                <img src="./images/catClaws.png" alt="生活美學" class="header-btn-image" />
+                <span>首頁</span>
               </router-link>
             </li>
             <!-- <li class="nav-item">
@@ -113,12 +114,18 @@
 }
 
 .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
   transform: translateY(-2px);
 }
 
 .nav-link.active {
-  background-color: rgba(255, 255, 255, 0.3);
+  /* background-color: rgba(255, 255, 255, 0.3); */
+}
+
+.header-btn-image {
+    width: 22px;
+    height: 36px;
+    object-fit: cover;
 }
 
 main {
