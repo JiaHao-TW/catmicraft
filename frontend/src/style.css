@@ -1,0 +1,182 @@
+:root {
+  /* Catmi Craft 品牌色系 */
+  --catmi-primary: #E8767B;
+  --catmi-secondary: #FFB6C1;
+  --catmi-light: #FFF5F7;
+  --catmi-cream: #F5F1E8;
+  --catmi-dark: #6B4A47;
+  --catmi-accent: #D4A574;
+  
+  color-scheme: light;
+  color: #333;
+  background-color: #FFF5F7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* 自定義 Bootstrap 變數 */
+:root {
+  --bs-primary: #E8767B;
+  --bs-secondary: #FFB6C1;
+  --bs-light: #FFF5F7;
+  --bs-body-bg: #FFF5F7;
+  --bs-body-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #FFF5F7;
+  font-family: inherit;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #FFF5F7 0%, #F5F1E8 100%);
+}
+
+/* 標題與文字 */
+h1, h2, h3, h4, h5, h6 {
+  color: #6B4A47;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  color: #555;
+  line-height: 1.8;
+}
+
+a {
+  color: #E8767B;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #D4627B;
+}
+
+/* 按鈕 */
+.btn {
+  border-radius: 25px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(232, 118, 123, 0.2);
+}
+
+.btn-primary {
+  background-color: #E8767B;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #D4627B;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(232, 118, 123, 0.3);
+}
+
+.btn-outline-primary {
+  color: #E8767B;
+  border: 2px solid #E8767B;
+}
+
+.btn-outline-primary:hover {
+  background-color: #E8767B;
+  border-color: #E8767B;
+}
+
+/* 卡片 */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(232, 118, 123, 0.15);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  color: #E8767B;
+  font-weight: 700;
+}
+
+/* 輸入框 */
+.form-control,
+.form-select,
+textarea.form-control {
+  border: 2px solid #FFE4E8;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  transition: border-color 0.3s;
+  font-size: 1rem;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea.form-control:focus {
+  border-color: #E8767B;
+  box-shadow: 0 0 0 0.2rem rgba(232, 118, 123, 0.15);
+}
+
+/* 徽章 */
+.badge {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  background-color: #FFE4E8;
+  color: #E8767B;
+}
+
+/* 響應式 */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
