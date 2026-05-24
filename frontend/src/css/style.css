@@ -16,6 +16,7 @@
   font-weight: 400;
 }
 
+
 /* 自定義 Bootstrap 變數 */
 :root {
   --bs-primary: #E8767B;
@@ -47,6 +48,8 @@ body {
   flex-direction: column;
   background: linear-gradient(135deg, #FFF5F7 0%, #F5F1E8 100%);
 }
+
+
 
 /* 標題與文字 */
 h1, h2, h3, h4, h5, h6 {
@@ -93,12 +96,13 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: #E8767B;
-  color: white;
+  background-color: #D9A28F !important; 
+  border: bisque !important;
+  color: white !important;
 }
 
-.btn-primary:hover {
-  background-color: #D4627B;
+.btn:hover {
+  background-color: #D4627B !important;;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(232, 118, 123, 0.3);
 }

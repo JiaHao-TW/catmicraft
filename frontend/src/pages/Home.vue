@@ -14,7 +14,7 @@
               <span class="text-muted">一起慢慢生活，找到喜歡的自己</span>
             </p>
             <button  class="btn btn-primary btn-lg">
-              <i class="bi bi-arrow-right me-2"></i>瀏覽產品
+              一起慢慢生活<i class="ms-2 bi bi-arrow-right me-2"></i>
             </button>
           </div>
           <div class="col-lg-6">
@@ -38,37 +38,77 @@
           <div class="col-md-6 col-lg-3">
             <div class="feature-card">
               <div class="feature-icon mb-3">
-                <i class="bi bi-flower1"></i>
+                <img src="../images/catClaws.png" alt="品牌故事" class="feature-icon-image" />
               </div>
-              <h5 class="fw-bold">品牌故事</h5>
-              <p class="text-secondary">認識 Catmi 的初心與品牌故事，感受溫暖的品牌情感</p>
+              <h5 class="fw-bold"><p>
+              走進<br>
+              <span class="text-muted">Catmi 的世界</span>
+            </p> </h5>
+              <p class="text-secondary">認識 Catmi 的初心與品牌故事。</p>
+              <div class="feature-image mb-3">
+                <img src="../images/catClaws.png" alt="品牌故事" class="feature-rect" />
+              </div>
+              <div><button  class="featurebtn btn btn-primary btn-lg">
+              <i class="ms-2 bi bi-arrow-right me-2"></i>
+            </button>
+              </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="feature-card">
               <div class="feature-icon mb-3">
-                <i class="bi bi-gift"></i>
+                <img src="../images/catClaws.png" alt="手工產品" class="feature-icon-image" />
               </div>
-              <h5 class="fw-bold">手工產品</h5>
-              <p class="text-secondary">精選手工製作的優質產品，每件都充滿創意</p>
+              <h5 class="fw-bold"><p>
+              留下<br>
+              <span class="text-muted">一點喜歡的日常</span>
+            </p> </h5>
+              <p class="text-secondary">欣賞作品與手作商品，收藏生活的美好。</p>
+              <div class="feature-image mb-3">
+                <img src="../images/catClaws.png" alt="品牌故事" class="feature-rect" />
+              </div>
+              <div><button  class="featurebtn btn btn-primary btn-lg">
+              <i class="ms-2 bi bi-arrow-right me-2"></i>
+            </button>
+              </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="feature-card">
               <div class="feature-icon mb-3">
-                <i class="bi bi-heart-fill"></i>
+                <img src="../images/catClaws.png" alt="溫柔陪伴" class="feature-icon-image" />
               </div>
-              <h5 class="fw-bold">溫柔陪伴</h5>
-              <p class="text-secondary">讓生活充滿溫暖和溫柔的陪伴</p>
+              <h5 class="fw-bold"><p>
+              開始<br>
+              <span class="text-muted">一段療癒時光</span>
+            </p> </h5>
+              <p class="text-secondary">探索手作課程，體驗慢下來的幸福。</p>
+              <div class="feature-image mb-3">
+                <img src="../images/catClaws.png" alt="品牌故事" class="feature-rect" />
+              </div>
+              <div><button  class="featurebtn btn btn-primary btn-lg">
+              <i class="ms-2 bi bi-arrow-right me-2"></i>
+            </button>
+              </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="feature-card">
               <div class="feature-icon mb-3">
-                <i class="bi bi-star-fill"></i>
+                <img src="../images/catClaws.png" alt="生活美學" class="feature-icon-image" />
               </div>
-              <h5 class="fw-bold">生活美學</h5>
-              <p class="text-secondary">將日常過成喜歡的樣子，享受美好生活</p>
+              <h5 class="fw-bold"><p>
+              聆聽<br>
+              <span class="text-muted">溫柔的陪伴</span>
+            </p> </h5>
+              <p class="text-secondary">最新消息與日常分享，與你一起慢慢生活。</p>
+              <div class="feature-image mb-3">
+                <img src="../images/catClaws.png" alt="品牌故事" class="feature-rect" />
+              </div>
+              <div><button  class="featurebtn btn btn-primary btn-lg">
+              <i class="ms-2 bi bi-arrow-right me-2"></i>
+            </button>
+              </div>
             </div>
           </div>
         </div>
@@ -76,13 +116,13 @@
     </section>
 
     <!-- CTA 區域 -->
-    <section class="cta-section mb-5">
+    <!-- <section class="cta-section mb-5">
       <div class="container-lg">
         <div class="row g-4">
           <div class="col-md-6">
             <div class="cta-card text-center">
               <div class="cta-icon mb-3">
-                <i class="bi bi-bag-heart"></i>
+                <img src="../images/catClaws.png" alt="走進 Catmi 的世界" class="feature-icon-image" />
               </div>
               <h4 class="fw-bold mb-2">走進 Catmi 的世界</h4>
               <p class="text-secondary">探索獨特的手工創意產品</p>
@@ -91,7 +131,7 @@
           <div class="col-md-6">
             <div class="cta-card text-center">
               <div class="cta-icon mb-3">
-                <i class="bi bi-chat-heart"></i>
+                <img src="../images/catClaws.png" alt="加入我們的社群" class="feature-icon-image" />
               </div>
               <h4 class="fw-bold mb-2">加入我們的社群</h4>
               <p class="text-secondary">分享生活故事，互動交流</p>
@@ -99,17 +139,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- 底部區域 -->
-    <section class="bottom-section text-center py-5">
-      <div class="container-lg">
-        <h3 class="fw-bold mb-3" style="color: #E8767B;">一起在日常裡找到喜歡的自己</h3>
-        <p class="lead text-secondary">
-          <i class="bi bi-heart-fill" style="color: #E8767B;"></i>
-        </p>
-      </div>
-    </section>
+    
   </div>
 </template>
 
@@ -135,13 +167,16 @@
 }
 
 .feature-card {
-  background: white;
+  /* background: white; */
   padding: 2rem 1.5rem;
   border-radius: 16px;
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .feature-card:hover {
@@ -162,8 +197,50 @@
   color: #E8767B;
 }
 
+.feature-icon-image {
+  height: 150%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 0; /* rectangle */
+  background: transparent; /* remove background color */
+  aspect-ratio: 16 / 9;
+}
+
+.feature-image img,
+.feature-rect {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.featurebtn {
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  border-radius: 50%;
+  margin: 1.5rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featurebtn i {
+  margin: 0 !important;
+}
+
+.feature-card > div {
+  text-align: center;
+}
+
 .cta-card {
-  background: white;
+  /* background: white; */
   padding: 2.5rem 2rem;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
